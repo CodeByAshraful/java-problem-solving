@@ -1,3 +1,8 @@
+/*
+ Author: Ashraful Khan
+ Problem: Number Guessing Game
+ Description: User guesses a random number between 1–100.
+*/
 import java.util.Scanner;
 public class NumberGuessingGame {
     public static void main(String[] args)
@@ -25,3 +30,21 @@ public class NumberGuessingGame {
         System.out.println(myNumber);
     }
 }
+/*
+ Problem: Number Guessing Game
+
+ The user has to guess a random number between 1 and 100.
+
+ Rules:
+ 1. If the guessed number is correct, display:
+    "Correct number."
+
+ 2. If the guessed number is smaller than the generated number, display:
+    "Your number is less."
+
+ 3. If the guessed number is larger than the generated number, display:
+    "Your number is large."
+
+ 4. If the user enters a negative number, the program will terminate immediately.
+*/
+
